@@ -15,9 +15,9 @@
 			"failed": false
 		},
 		"github.com/charoleizer/utils-genericsrtti.git": {
-			"name": "utils-genericsrtti.git",
+			"name": "Utils-GenericsRTTI.git",
 			"version": "master",
-			"hash": "41d6ae35fa78c6ad3ce3b8a5e8e1d8a6da31295ff2b02f82bbbd76b16dd7e66a",
+			"hash": "d10c399922c3eb500df182fad6b2f4179fab3357bb1ae333d118e689a6e487ef",
 			"artifacts": {
 				"bin": [],
 				"dcp": [],
