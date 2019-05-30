@@ -2,6 +2,18 @@
 	"hash": "d41d8cd98f00b204e9800998ecf8427e",
 	"updated": "2019-05-30T01:03:44.7621532-03:00",
 	"installedModules": {
+		"bitbucket.org/sglienke/spring4d": {
+			"name": "spring4d",
+			"version": "2.0-alpha.2",
+			"hash": "c9697a6d3a04c889086cff7409f863a1910513884c332d2e4ec40207ed984d62",
+			"artifacts": {
+				"bin": [],
+				"dcp": [],
+				"dcu": [],
+				"bpl": []
+			},
+			"failed": false
+		},
 		"github.com/charoleizer/utils-genericsrtti": {
 			"name": "utils-genericsrtti",
 			"version": "master",

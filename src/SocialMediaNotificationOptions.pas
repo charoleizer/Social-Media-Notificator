@@ -29,13 +29,14 @@ begin
   if not(Assigned(FSocialMediaNotificationOptionsDictionary)) then
     FSocialMediaNotificationOptionsDictionary := TCollections.CreateDictionary<String, String>;
 
-  FSocialMediaNotificationOptionsDictionary.AddOrSetValue('none', '');
-  FSocialMediaNotificationOptionsDictionary.AddOrSetValue('email', 'Email.Notification.TEmailNotification');
-  FSocialMediaNotificationOptionsDictionary.AddOrSetValue('sms', '');
-  FSocialMediaNotificationOptionsDictionary.AddOrSetValue('facebook', '');
-  FSocialMediaNotificationOptionsDictionary.AddOrSetValue('whatsapp', '');
-  FSocialMediaNotificationOptionsDictionary.AddOrSetValue('telegram', 'Telegram.Notification.TTelegramNotification');
-  FSocialMediaNotificationOptionsDictionary.AddOrSetValue('instagram', '');
+  FSocialMediaNotificationOptionsDictionary['none']      := '';
+  FSocialMediaNotificationOptionsDictionary['email']     := 'Email.Notification.TEmailNotification';
+  FSocialMediaNotificationOptionsDictionary['sms']       := '';
+  FSocialMediaNotificationOptionsDictionary['facebook']  := '';
+  FSocialMediaNotificationOptionsDictionary['whatsapp']  := '';
+  FSocialMediaNotificationOptionsDictionary['telegram']  := 'Telegram.Notification.TTelegramNotification';
+  FSocialMediaNotificationOptionsDictionary['instagram'] := '';
+
 end;
 
 
