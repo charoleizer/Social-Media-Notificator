@@ -1,0 +1,11 @@
+{
+	"name": "Social-Media-Notificator",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/charoleizer/utils-genericsrtti": ">0.0.0"
+	}
+}

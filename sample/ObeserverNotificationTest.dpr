@@ -8,8 +8,7 @@ uses
   SocialMediaNotifier in '..\src\SocialMediaNotifier.pas',
   ObservableNotification in '..\src\ObservableNotification.pas',
   Email.Notification in '..\src\Email.Notification.pas',
-  Telegram.Notification in '..\src\Telegram.Notification.pas',
-  Utils.GenericsRTTI in '..\..\Utils-GenericsRTTI\src\Utils.GenericsRTTI.pas';
+  Telegram.Notification in '..\src\Telegram.Notification.pas';
 
 {$R *.res}
 

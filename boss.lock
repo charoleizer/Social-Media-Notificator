@@ -1,0 +1,18 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2019-05-30T01:03:44.7621532-03:00",
+	"installedModules": {
+		"github.com/charoleizer/utils-genericsrtti": {
+			"name": "utils-genericsrtti",
+			"version": "master",
+			"hash": "bc987501cfffef8c15701f0f14d7304cda97bdef3019bd9855e5d626b716a680",
+			"artifacts": {
+				"bin": [],
+				"dcp": [],
+				"dcu": [],
+				"bpl": []
+			},
+			"failed": false
+		}
+	}
+}
