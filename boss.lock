@@ -1,11 +1,11 @@
 {
 	"hash": "d41d8cd98f00b204e9800998ecf8427e",
-	"updated": "2019-05-30T01:03:44.7621532-03:00",
+	"updated": "2019-05-30T14:45:37.3894261-03:00",
 	"installedModules": {
-		"bitbucket.org/sglienke/spring4d": {
-			"name": "spring4d",
+		"bitbucket.org/sglienke/spring4d.git": {
+			"name": "spring4d.git",
 			"version": "2.0-alpha.2",
-			"hash": "c9697a6d3a04c889086cff7409f863a1910513884c332d2e4ec40207ed984d62",
+			"hash": "5b76161482d285e976c513b529c502c4d349d16024ca7410e59d9a0c48a12d3f",
 			"artifacts": {
 				"bin": [],
 				"dcp": [],
@@ -14,10 +14,10 @@
 			},
 			"failed": false
 		},
-		"github.com/charoleizer/utils-genericsrtti": {
-			"name": "utils-genericsrtti",
+		"github.com/charoleizer/utils-genericsrtti.git": {
+			"name": "utils-genericsrtti.git",
 			"version": "master",
-			"hash": "bc987501cfffef8c15701f0f14d7304cda97bdef3019bd9855e5d626b716a680",
+			"hash": "41d6ae35fa78c6ad3ce3b8a5e8e1d8a6da31295ff2b02f82bbbd76b16dd7e66a",
 			"artifacts": {
 				"bin": [],
 				"dcp": [],

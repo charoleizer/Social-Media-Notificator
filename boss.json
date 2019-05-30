@@ -6,7 +6,7 @@
 	"mainsrc": "./",
 	"projects": [],
 	"dependencies": {
-		"bitbucket.org/sglienke/spring4d": "^2.0-alpha.2",
-		"github.com/charoleizer/utils-genericsrtti": ">0.0.0"
+		"bitbucket.org/sglienke/spring4d.git": "^2.0-alpha.2",
+		"github.com/charoleizer/utils-genericsrtti.git": ">0.0.0"
 	}
 }
