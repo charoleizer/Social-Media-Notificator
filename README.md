@@ -2,7 +2,7 @@
 
 
 
-### For install [dependencies](https://github.com/HashLoad/boss):
+### [Boss](https://github.com/HashLoad/boss) is being used to get dependencies:
 ``` sh
 $ boss install
 ```
