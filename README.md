@@ -2,7 +2,7 @@
 
 
 
-### [Boss](https://github.com/HashLoad/boss) is being used to get dependencies:
+### [Boss](https://github.com/HashLoad/boss) is being used to manage dependencies:
 ``` sh
 $ boss install
 ```
