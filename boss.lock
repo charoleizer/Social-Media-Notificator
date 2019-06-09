@@ -5,7 +5,19 @@
 		"bitbucket.org/sglienke/spring4d.git": {
 			"name": "spring4d.git",
 			"version": "2.0-alpha.2",
-			"hash": "5b76161482d285e976c513b529c502c4d349d16024ca7410e59d9a0c48a12d3f",
+			"hash": "1b500191e9f24f0415b499c4e44803db2af6d84dd78c49a272a91ec33a5e6107",
+			"artifacts": {
+				"bin": [],
+				"dcp": [],
+				"dcu": [],
+				"bpl": []
+			},
+			"failed": false
+		},
+		"github.com/charoleizer/telegram4delphi": {
+			"name": "telegram4delphi",
+			"version": "master",
+			"hash": "8a809bf47caccf9ec9e6889a625ca99567d8e26745edf60db3652e0d2b86fc40",
 			"artifacts": {
 				"bin": [],
 				"dcp": [],
@@ -17,7 +29,7 @@
 		"github.com/charoleizer/utils-genericsrtti.git": {
 			"name": "Utils-GenericsRTTI.git",
 			"version": "master",
-			"hash": "d10c399922c3eb500df182fad6b2f4179fab3357bb1ae333d118e689a6e487ef",
+			"hash": "bbe26db77003e5d701632ac4fe2ea0a980e3a44df99c1b42b2ad1508bb9cd35d",
 			"artifacts": {
 				"bin": [],
 				"dcp": [],

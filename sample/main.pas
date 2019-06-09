@@ -64,9 +64,9 @@ begin
   with TObservableNotification.Create do
   begin
     // Feeding Value Object
-    SocialMedia.User      := 'Maha';
-    SocialMedia.Password  := '123456';
-    SocialMedia.Recipient := 'Harry Potter';
+    SocialMedia.User      := 'botToken';
+    SocialMedia.Password  := '';
+    SocialMedia.Recipient := 'chat_id';
     SocialMedia.Message   := 'Directly from Azkabutt, ...';
 
     // Create of observert must be defined by NotificationOptionID

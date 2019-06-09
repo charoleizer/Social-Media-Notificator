@@ -15,22 +15,28 @@ type
 implementation
 
 uses
-  Winapi.Windows;
+  Telegram4D.Impl,
+  System.JSON,
+  System.SysUtils;
 
 { TTelegramNotification }
 
 
 
 procedure TTelegramNotification.SendNotification(ASocialMedia: TSocialMedia);
+var
+  Telegram4D: ITelegram4D;
+  Return: TJSONValue;
 begin
-  MessageBox(0, PWideChar('Message sent by Telegram' +
-    #13#10 +
-    'From: ' + ASocialMedia.User + #13#10 +
-    'To :' + ASocialMedia.Recipient +
-    #13#10 +
-    #13#10 +
-    'Content: ' + ASocialMedia.Message
-    ), PChar('Telegram.Notification'), mb_ok);
+  Telegram4D := TTelegram4DImpl.Create;
+
+  Telegram4D.getTelegram4DObject.baseURL  := 'https://api.telegram.org/bot';
+  Telegram4D.getTelegram4DObject.botToken := ASocialMedia.User;
+  Telegram4D.getTelegram4DObject.chat_id  := ASocialMedia.Recipient;
+
+  Return := Telegram4D.sendMessage(ASocialMedia.Message);
+
+  { TODO : if (Return.GetValue<String>('ok') = 'false') then Log Return.ToJSON }
 
 end;
 
