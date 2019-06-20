@@ -11,10 +11,6 @@ type
     procedure SendNotification(ASocialMedia: TSocialMedia);
   end;
 
-  TSocialMediaNotifier = class abstract
-    procedure SendNotification(ASocialMedia: TSocialMedia); virtual; abstract;
-  end;
-
 implementation
 
 { TSocialMediaNotifier }
